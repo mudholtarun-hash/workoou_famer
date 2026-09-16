@@ -298,4 +298,24 @@ export const MyFriend: React.FC = () => {
                  <div className="grid grid-cols-2 gap-4">
                     <div>
                        <label className="block text-xs font-bold text-gray-500 uppercase mb-1">Quantity</label>
-                       <input className="w-full p-3 bg-gray-50 border border-gray-200 rounded-xl" placeholder="e.g. 
+                       <input className="w-full p-3 bg-gray-50 border border-gray-200 rounded-xl" placeholder="e.g. 50 Quintals" />
+                    </div>
+                    <div>
+                       <label className="block text-xs font-bold text-gray-500 uppercase mb-1">Expected Price</label>
+                       <input className="w-full p-3 bg-gray-50 border border-gray-200 rounded-xl" placeholder="e.g. ₹2,200/Qtl" />
+                    </div>
+                 </div>
+                 <div>
+                    <label className="block text-xs font-bold text-gray-500 uppercase mb-1">Location</label>
+                    <input className="w-full p-3 bg-gray-50 border border-gray-200 rounded-xl" placeholder="e.g. Nashik, Maharashtra" />
+                 </div>
+                 <button type="submit" className="w-full py-3 bg-green-600 hover:bg-green-700 text-white font-bold rounded-xl shadow-md transition-colors">
+                    Submit Listing
+                 </button>
+              </form>
+           </div>
+        </div>
+      )}
+    </div>
+  );
+};
