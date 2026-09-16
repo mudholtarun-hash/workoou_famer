@@ -1,0 +1,10 @@
+{
+  "name": "Kisan Portal_update",
+  "description": "A modern agriculture portal for farmers featuring real-time weather, market prices, and AI assistance.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": []
+}
